@@ -48,18 +48,20 @@ public class App {
         System.out.println("With input \"I can do this\" you should return 4. You got: " + maxWordLength("I can do this"));
     }
 
-    public static int[] copyFrontAndBack(int[] nums){
-     ArrayList<Integer> nums = new ArrayList<>();
-      if (nums.size()>=2) {
-        System.out.println((nums.get(0)));
-         System.out.println(nums.get(nums.size()-1));
+    public static int copyFrontAndBack(int nums){
+     ArrayList<Integer> list = new ArrayList<>();
+        
+        if (list.size()>=2) {
+        return [list.get(0),list.get(list.size()-1)];
+        
       }
       else{
-        System.out.println(nums);
-        System.out.println(nums);
+        return [nums,nums];
+       
       }
+        }
 
-      }
+      
 
 
     
