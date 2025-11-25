@@ -52,7 +52,7 @@ public class App {
      ArrayList<Integer> list = new ArrayList<>();
         
         if (list.size()>=2) {
-        return [list.get(0),list.get(list.size()-1)];
+        return [return(0),return(list.size()-1)];
         
       }
       else{
